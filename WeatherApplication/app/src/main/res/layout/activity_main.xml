@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/app_name"
+        android:text="WeatherApp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+    <View
+        android:layout_width="70dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:background="#1ABC9C" />
+
+
+    <EditText
+        android:id="@+id/cityName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round"
+        android:ems="10"
+        android:hint="Enter City Name.."
+        android:inputType="textPersonName"
+        android:paddingLeft="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHighlight="#00F8F3F3"
+        android:textColorHint="@color/colorPrimaryDark" />
+
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/round"
+        android:text="Temperature"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:hint="Temperature...."
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        app:fontFamily="serif-monospace"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="390dp" />
+</LinearLayout>
