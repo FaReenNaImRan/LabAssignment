@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NoteTaking</string>
+    <string name="title">Title</string>
+    <string name="enter_body">Enter Body</string>
+    <string name="add_note">Add Note</string>
+    <string name="no_notes_found">No Notes Found</string>
+    <string name="no_field_empty_text">Fields must not be empty</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+</resources>
